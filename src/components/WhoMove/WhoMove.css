@@ -1,0 +1,21 @@
+.who_move {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.who_move div {
+    width: 45px;
+    height: 45px;
+    margin-left: 5px;
+}
+
+.who_move .crossCell {
+    background: url(../../img/cross.png) center center no-repeat;
+    background-size: 70%;
+}
+
+.who_move .circleCell {
+    background: url(../../img/circle.png) center center no-repeat;
+    background-size: 70%;
+}

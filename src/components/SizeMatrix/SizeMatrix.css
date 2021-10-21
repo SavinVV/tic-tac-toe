@@ -1,0 +1,18 @@
+p {
+    margin: 0 0 10px 0;
+}
+
+.size_matrix {
+    width: 200px;
+    margin: 0 auto 20px;
+}
+
+.size_matrix__btns_list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.size_matrix button {
+    width: 50px;
+    display: block;
+}

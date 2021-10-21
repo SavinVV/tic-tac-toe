@@ -1,0 +1,25 @@
+table {
+    margin: 10px auto 40px;
+    border-collapse: collapse;
+}
+
+td {
+    display: table-cell;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #f78413;
+    background-color: #ffdec6;
+    cursor: pointer;
+}
+
+.crossCell {
+    background: url(../../img/cross.png) center center no-repeat #ffdec6;
+    background-size: 70%;
+    cursor: default;
+}
+
+.circleCell {
+    background: url(../../img/circle.png) center center no-repeat #ffdec6;
+    background-size: 70%;
+    cursor: default;
+}
